@@ -1,0 +1,418 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  overflow: auto;
+}
+#wrapper {
+  background-position: 0% 0px;
+  width: 1910px;
+  margin: 0px auto 0 auto;
+}
+
+#header {
+  width: 1920px;
+  display: block;
+  position: relative;
+}
+#navaccueil{
+  margin-top: 2%;
+  position: absolute;
+  width: 100%;
+  height: 650%;
+  background-color: #DEDEDE;
+}
+#langues,#langues ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#langues li{
+  display: inline-block;
+}
+#langues ul li{
+  display: inherit;
+}
+#langues a{
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+#langues ul{
+  position: absolute;
+  left: -999em;
+  text-align: left;
+  z-index: 1000;
+}
+#langues li:hover ul{
+  left: auto;
+}
+#photoavataraccueil{
+  background-color: white;
+  text-align: center;
+  line-height: 830%;
+  margin-left: 6%;
+  margin-top: -0.8%;
+  position: absolute;
+  width: 6%;
+  height: 120%;
+  border: 2px solid black;
+}
+#pseudoacceuil{
+  text-align: center;
+  margin-top: 2%;
+  font-size: 140%;
+  margin-left: 12.5%;
+  width: 15%;
+  height: 5%;
+}
+#modifierprofilaccueil{
+  text-align: center;
+  margin-top: 1%;
+  font-size: 110%;
+  margin-left: 12.5%;
+  width: 15%;
+  height: 5%;
+}
+#titreaccueil{
+  margin-top: -2.7%;
+  position: relative;
+  margin-left: 29%;
+  line-height: 190%;
+  font-size: 300%;
+  width: 40%;
+  height: 70%;
+  text-align: center;
+  background-color: #C9C7C7
+}
+
+#connectionaccueil{
+  position: absolute;
+  text-align: center;
+  margin-left: 83%;
+  font-size: 200%;
+  line-height: 180%;
+  margin-top: -5.6%;
+  width: 12%;
+  height: 45%;
+  background-color: #838383;
+}
+#inscriptionaccueil{
+  position: absolute;
+  text-align: center;
+  margin-left: 83%;
+  font-size: 200%;
+  line-height: 180%;
+  margin-top: -2.2%;
+  width: 12%;
+  height: 45%;
+  background-color: #838383;
+}
+#speakeraccueil{
+  position: absolute;
+  margin-left: 78%;
+  margin-top: -3.8%;
+}
+
+#photo{
+  display:block;
+  line-height: 830%;
+  text-align: center;
+  margin-left: 6%;
+  position: relative;
+  width: 6%;
+  height: 15%;
+  border: 5px solid black;
+}
+#identifiant{
+  text-align: center;
+  margin-top: -4.6%;
+  font-size: 140%;
+  margin-left: 12.5%;
+  position: relative;
+  width: 15%;
+  height: 5%;
+}
+#modifierprofil{
+  text-align: center;
+  margin-top: -0%;
+  font-size: 110%;
+  margin-left: 12.5%;
+  width: 15%;
+  height: 5%;
+}
+#studios{
+  text-align: center;
+  margin-left: 53.5%;
+  margin-top: -1%;
+  font-size: 150%;
+  position: relative;
+  width: 13%;
+  height: 2%;
+}
+#nom{
+  text-align: center;
+  margin-left: 28%;
+  margin-top: -5.3%;
+  font-size: 420%;
+  position: relative;
+  width: 42%;
+  height: 15%;
+}
+#deconnexion{
+  display: block;
+  position: absolute;
+  text-align: center;
+  margin-left: 85%;
+  line-height: 200%;
+  margin-top: -3%;
+  width : 12%;
+  height: 50%;
+  font-size: 150%;
+  border: solid black 1px;
+}
+#rectanglegris{
+  text-align: center;
+  margin-left: 13%;
+  margin-top: 7%;
+  position: relative;
+  width: 70%;
+  height: 70%;
+  background-color: #D0D1D1;
+}
+#speaker{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -3%;
+}
+#adeco{
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+#navbar{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  background-color: #D0D1D1;
+}
+.container{
+  position: relative;
+  width: 118.5em;
+}
+
+#titre{
+  position: relative;
+  margin-left: 39%;
+  line-height: 195%;
+  font-size: 300%;
+  width: 20%;
+  height: 80%;
+  text-align: center;
+}
+#speakerheader{
+  position: absolute;
+  margin-top: -3.5%;
+  margin-left: 62%;
+}
+#inscription{
+  position: absolute;
+  text-align: center;
+  margin-left: 66.5%;
+  font-size: 200%;
+  margin-top: -3.5%;
+  width: 15%;
+  height: 60%;
+  background-color: #838383;
+}
+#connection{
+  position: absolute;
+  text-align: center;
+  margin-left: 83%;
+  font-size: 200%;
+  margin-top: -3.5%;
+  width: 15%;
+  height: 60%;
+  background-color: #838383;
+
+}
+#fond{
+  width: 33%;
+  height: 60%;
+  margin-left: 33%;
+  margin-top: 2%;
+  background-color: #D0D1D1;
+}
+#sinscrire{
+  position: relative;
+  text-align: center;
+  margin-left: 39.5%;
+  width: 15%;
+  height: 10%;
+}
+#pseudo{
+  position: relative;
+  text-align: center;
+  margin-left: -15%;
+  margin-top: 0%;
+  width: 80%;
+  height: 10%;
+}
+#enterpseudo{
+  position: relative;
+  text-align: center;
+  margin-left: -15%;
+  margin-top: 4%;
+  width: 80%;
+  height: 10%;
+}
+#mail{
+  position: relative;
+  text-align: center;
+  margin-left: -15%;
+  margin-top: 4%;
+  width: 80%;
+  height: 10%;
+}
+#entermail{
+  position: relative;
+  text-align: center;
+  margin-left: -15%;
+  margin-top: 4%;
+  width: 80%;
+  height: 10%;
+}
+#motdepasse{
+  position: relative;
+  text-align: center;
+  margin-left: -15%;
+  margin-top: 4%;
+  width: 80%;
+  height: 10%;
+}
+#entermotdepasse{
+  position: relative;
+  text-align: center;
+  margin-left: -15%;
+  margin-top: 4%;
+  width: 80%;
+  height: 10%;
+}
+#confirmation{
+  position: relative;
+  text-align: center;
+  margin-left: -15%;
+  margin-top: 4%;
+  width: 80%;
+  height: 20%;
+}
+#enterconfirmation{
+  position: relative;
+  text-align: center;
+  margin-left: -15%;
+  margin-top: 4%;
+  width: 80%;
+  height: 10%;
+}
+#conditions{
+  position: relative;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 22.8%;
+  width: 60%;
+  height: 10%;
+}
+#acocherregister{
+  margin-left: 50%;
+}
+#validation{
+  position: relative;
+  text-align: center;
+  margin-left: 44%;
+  margin-top: 2%;
+  width: 15%;
+  height: 10%;
+}
+.navbar-brand{
+  color: black;
+}
+#fondco{
+  width: 500px;
+  height: 400px;
+  margin-top: 2%;
+  margin-left: 36%;
+  background-color: #D0D1D1;
+}
+#titreco{
+  position: relative;
+  display: block;
+  margin-left: 10%;
+  padding-top: 1%;
+}
+#identco{
+  padding-top: 0%;
+  margin-left: 10%;
+}
+#mdpco{
+  margin-left: 10%;
+}
+#bouton{
+  width: 40%;
+  font-size: 180%;
+  margin-top: 12%;
+  margin-left: 50%;
+  background-color: white;
+  border: solid grey 1px;
+}
+.form-control{
+  margin-top: -4%;
+  width: 45%;
+  font-size: 190%;
+}
+#mdpoublie{
+  text-decoration: underline;
+  font-size: 110%;
+  color: black;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+#rappelco{
+  font-size: 110%;
+  margin-left: 10%;
+  margin-top: -5%;
+}
+footer{
+  margin-left: 30.5%;
+  margin-top: 10%;
+  bottom: 0px;
+  position: relative;
+}
+#footer{
+  position: relative;
+}
+#datenom{
+  margin-left: 19.5%;
+  font-size: 125%;
+}
+#menufooter{
+  width: 800px;
+  height: 20px;
+  margin-left: -4%;
+  color: blue;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li{
+  display: inline-block; /* Permet d'aligner les éléments les uns à coté des autres*/
+  margin: 0 0 0 40px;
+}
+.afooter{
+  color: black;
+}
+#basfooter{
+  margin-left: 17%;
+  text-decoration: underline;
+}
